@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto; /* Asegúrate de que no haya margen superior o inferior */
+  background-color: #000000; /* Color de fondo del menú */
+  padding: 20px; /* Agregar padding interno */
+  /* Esquinas redondeadas */
+}
+.menu-item {
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+}
+
+.menu-item:active {
+  transform: scale(0.9);
+}
+
+.menu-item img {
+  width: 130px; /* Aumenta el tamaño de la imagen */
+  height: 100px; /* Asegúrate de que las imágenes sean cuadradas */
+  border-radius: 20px; /* Esquinas redondeadas */
+  transition: box-shadow 0.2s;
+}
+
+.menu-item img:hover {
+  box-shadow: 0 4px 8px rgb(37, 37, 37);
+}
+
+.menu-item span {
+  display: block;
+  margin-top: 10px;
+  color: #d3d2d2; /* Cambia este valor al color que desees */
+}

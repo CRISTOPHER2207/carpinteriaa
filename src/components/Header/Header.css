@@ -1,0 +1,25 @@
+.h-wrapper{
+    background: var(--black);
+    color: white;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+}
+
+.h-menu{
+    gap: 2rem;
+}
+
+.h-menu > *{
+    font-size: 1.0rem; /* Ajusta el tamaño del texto del menú */
+}
+
+.h-menu > *:hover{
+    cursor: pointer;
+    color: white; /* Cambia el color a blanco cuando se pasa el mouse por encima */
+    transition: color 0.3s; /* Añade una transición suave para un efecto más bonito */
+}

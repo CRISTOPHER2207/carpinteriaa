@@ -1,0 +1,51 @@
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%), 
+        url('./maderaa.jpg'); /* Añade la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  
+    min-height: 90vh; /* Asegúrate de que cubra al menos la altura de la ventana */
+}
+.hero-container{
+     justify-content: space-between;
+     align-items: flex-end;
+}
+
+.image-container {
+    width: 40rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 1rem; /* Ajusta según la curvatura deseada */
+}
+.image-container>img{
+    width: 100%;
+    height: 100%;
+}
+
+/* left side*/
+.hero-left{
+    gap: 3rem;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+    padding-top: 1rem; /* Ajusta según sea necesario */
+    padding-bottom: 11rem; /* Ajusta según sea necesario */
+}
+.hero-title>h1{
+    font-weight:800;
+    font-size: 4.3rem;
+    line-height: 4.3rem;
+    margin: 0;
+}
+
+.orange-circle{
+    height: 4rem;
+    width: 4rem;
+}
